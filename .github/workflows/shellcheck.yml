@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is running shellcheck
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions: {}
 jobs:
