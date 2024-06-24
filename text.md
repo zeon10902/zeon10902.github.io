@@ -15,3 +15,4 @@ The main content of this file will cover various aspects of markdown writing, in
 In conclusion, it is important to use tools like write-good to ensure that our writing is clear, concise, and free of errors. It's also important to have a good understan
 
 This is a line of text
+This is another line of text
