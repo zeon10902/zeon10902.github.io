@@ -12,7 +12,11 @@ jobs:
     steps: 
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      - name: Install write-good
+        run: npm install -g write-good
       - name: Run write-good
-        run: npx write-good '**/*.md' 
+        run: write-good '**/*.md' 
   
   
