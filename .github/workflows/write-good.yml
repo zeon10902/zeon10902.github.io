@@ -14,6 +14,6 @@ jobs:
       - name: Install write-good
         run: npm install -g write-good
       - name: Run write-good
-        run: npx write-good '**/*.md' 
+        run: npx write-good '*.md' 
   
   
