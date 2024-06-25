@@ -1,9 +1,6 @@
 name: "Trigger: Pull request action"
 run-name: ${{ github.actor }} is running write-good
-on:
-  pull_request:
-    paths:
-      - '**/*.md'
+on: pull_request
 
 jobs:
   write-good:
@@ -17,6 +14,6 @@ jobs:
       - name: Install write-good
         run: npm install -g write-good
       - name: Run write-good
-        run: write-good '**/*.md' 
+        run: write-good *.md 
   
   
